@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #2f3542 url('img/BG.png');
+    background: #2f3542 url('img/BG.png') no-repeat left center/cover;
     color: #fff;
     min-height: 100vh;
     display: flex;
@@ -27,6 +27,14 @@ p{
     line-height: 1.5s;
     margin: 0;
 
+}
+
+.play-again {
+    padding: 2em 4em;
+    border: 0;
+    background: #f4f4f4;
+    border-radius: .8rem;
+    margin-top: 1em;
 }
 
 .msg {
